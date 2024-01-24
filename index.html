@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+</head>
+<style>
+   table td, table td {
+    velign: center;
+    ;
+    
+    }
+    h2,h3,h4,h5,p,ul{
+        color: aliceblue; }
+    h1{
+        font-size: 50px;
+    }
+    marquee{
+        font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+    body { 
+    display: grid; 
+    
+    color: rgb(0, 0, 0); 
+} 
+  
+.main__bg { 
+    background-image: linear-gradient(-60deg, #151831 50%, #2a7d70 50%); 
+    animation: slide 3s ease-in-out infinite alternate; 
+    position: fixed; 
+    top: 0; 
+    bottom: 0; 
+    left: -50%; 
+    right: -50%; 
+    opacity: 0.5; 
+    z-index: -1; 
+} 
+  
+.layer1 { 
+    animation-direction: alternate-reverse; 
+    animation-duration: 4s; 
+} 
+  
+.layer2 { 
+    animation-duration: 5s; 
+} 
+  
+@keyframes slide { 
+    0% { 
+        transform: translateX(-25%); 
+    } 
+    100% { 
+        transform: translateX(25%); 
+    } 
+}
+hr{
+    border-color: bisque;
+}
+</style>
+<body style="background-color: black;" >
+    <table style="background-color: rgb(253, 253, 255); width: 100%;">
+        <tr > 
+            <td style="text-align: center;"><img src="Assets/Ishan Passport small size.jpg" height="200"></td>
+            <th style="background-color:rgb(167, 237, 237); width: 80%; text-align: center; word-spacing: normal;"> <h1 >Ishan Satya Prakash<h1></th>
+        </tr>
+    
+    </table>
+    <h2> Summary:-</h2>
+    <p> Experienced web developer skilled in front-end (HTML, CSS, JavaScript) and back-end (Node.js, Express) technologies.<br> Proven track record of delivering responsive and scalable web solutions.<br> Strong collaborator with an eye for detail and commitment to staying current with industry trends.
+    <hr>
+    <h2>Education</h2>
+    <ul>
+        <li>Computer Engineering, Thapar Institue of Engineering Technology. (2023-27)</li>
+        <li>Cambridge AS/A level with A* grade in Physics,Chemistry and Math.</li>
+        
+    </ul>
+    <hr>
+    <h2>Work Experience:-</h2>
+    <ul>
+        <li>CG technosoft (2021 May-July) </li>
+            <ul>
+                <li>Worked on creating games using C# in Unity engine.</li>
+                <li>Worked in the designing team.</li>
+            </ul>
+        <li>
+            Research internship at TIET(2023 Oct - Dec)
+
+        </li>
+            <ul><li>Worked under the guidance of Dr. Satnam Singh & Dr.Amit Dhir in th field of removing water hardness sustainablly.</li></ul>
+    </ul>
+    <hr>
+    <h2>Projects:-</h2>
+    <ul>
+       <li>Worked on creating birthday invitations using HTML</li>
+        <li>Created My favourite movie list using HTML</li>
+        <li>Made India sustainable during Swachh Bharat Abhiyan under guidance of Dr.Amit Dhir</li>
+        <li>Created a runner game in Unity using C#</li>
+    </ul>
+    <hr>
+    <h2>Skills:-</h2>
+    <ul>
+        <li>Proeficient in C, C++, HTML, CSS, JavaScript, Kotlin, React Js.</li>
+        <li>Microsoft Ofice Suite</li>
+        <li>AutoCad, Solidworks, Photoshop and Premier Pro</li>
+    </ul>
+    <hr>
+    <table style="width: 100% ;background-color: cyan;">
+        <h2><marquee>
+        <tr style="width: 100%;">
+            <th><a href="Public/Contact_me.html"><marquee >Contact</marquee></a></th>
+            <th><a href="Public/About_me.html"><marquee>About Me</marquee></a></th>
+            <th><a href="Public/Projects.html"><marquee >Projects</marquee></th><a></th>
+        </tr></marquee></h2>
+    </table>
+    <div class="main__bg"></div> 
+    <div class="main__bg layer1"></div> 
+    <div class="main__bg layer2"></div> 
+
+
+
+
+</body>
+</html>

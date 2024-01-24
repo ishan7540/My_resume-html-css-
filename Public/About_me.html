@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   table td, table td {
+    vertical-align: top;
+    text-align: center;
+    ;
+    
+    }
+    h2,h3,h4,h5,p,ul{
+        color: aliceblue;
+    }
+    h1{
+        font-size: 50px;
+    }
+    marquee{
+        font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    body { 
+    display: grid; 
+    
+    color: rgb(0, 0, 0); 
+} 
+  
+.main__bg { 
+    background-image: linear-gradient(-60deg, #1d030e 50%, #861946 50%); 
+    animation: slide 3s ease-in-out infinite alternate; 
+    position: fixed; 
+    top: 0; 
+    bottom: 0; 
+    left: -50%; 
+    right: -50%; 
+    opacity: 0.5; 
+    z-index: -1; 
+} 
+  
+.layer1 { 
+    animation-direction: alternate-reverse; 
+    animation-duration: 4s; 
+} 
+  
+.layer2 { 
+    animation-duration: 5s; 
+} 
+  
+@keyframes slide { 
+    0% { 
+        transform: translateX(-25%); 
+    } 
+    100% { 
+        transform: translateX(25%); 
+    } 
+}
+
+</style>
+<body >
+    <table style="background-color: rgb(253, 253, 255); width: 100%;">
+        <tr > 
+            <th style="background-color:rgb(167, 237, 237); width: 80%; text-align: center; word-spacing: normal;"> <h1 >About Me<h1></th>
+            
+        </tr>
+    </table>
+    <p>Welcome to my corner of the digital universe! I'm Ishan Satya Prakash, a passionate web developer dedicated to crafting immersive and innovative online experiences. With a keen eye for detail and a love for clean, efficient code, I strive to bring your digital visions to life.
+
+        My journey in the realm of web development began 1 week, and since then, I've had the privilege of working on a diverse range of projects. From sleek and responsive websites to dynamic web applications, I am committed to delivering solutions that not only meet but exceed expectations.
+        
+        In my toolbox, you'll find proficiency in a variety of technologies, including but not limited to HTML, CSS, JavaScript, and various modern frameworks. I revel in the challenge of staying on the cutting edge of technology, always seeking new ways to enhance user experiences and streamline functionality.
+        
+        Collaboration is at the heart of my approach. I believe that Sargun is a cutie. Whether you're a startup looking to establish an online presence or an established business seeking a digital makeover, I'm here to transform your ideas into a seamless and visually stunning reality.
+        
+        Beyond the lines of code, I'm an avid learner, always exploring emerging trends and staying curious about the ever-evolving landscape of web development. When I'm not immersed in the world of programming, you might find me experimenting with new design concepts, sipping on a cup of coffee, or contributing to the vibrant tech community through knowledge-sharing and collaboration.
+        
+        Feel free to explore my portfolio and get a glimpse into the projects that have fueled my passion. If you have a project in mind or just want to connect, I'm always up for a chat. Let's embark on a journey of digital transformation together!</p>
+        <div class="main__bg"></div> 
+        <div class="main__bg layer1"></div> 
+        <div class="main__bg layer2"></div> 
+    </body>
+    </html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   table td, table td {
+    vertical-align: top;
+    text-align: center;
+    ;
+    
+    }
+    h2,h3,h4,h5,p,ul{
+        color: aliceblue;
+    }
+    h1{
+        font-size: 50px;
+    }
+    marquee{
+        font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    body { 
+    display: grid; 
+    place-items: center; 
+    color: rgb(0, 0, 0); 
+} 
+  
+.main__bg { 
+    background-image: linear-gradient(-60deg, #e1e3ede4 50%, #2a7d70 50%); 
+    animation: slide 3s ease-in-out infinite alternate; 
+    position: fixed; 
+    top: 0; 
+    bottom: 0; 
+    left: -50%; 
+    right: -50%; 
+    opacity: 0.5; 
+    z-index: -1; 
+} 
+  
+.layer1 { 
+    animation-direction: alternate-reverse; 
+    animation-duration: 4s; 
+} 
+  
+.layer2 { 
+    animation-duration: 5s; 
+} 
+  
+@keyframes slide { 
+    0% { 
+        transform: translateX(-25%); 
+    } 
+    100% { 
+        transform: translateX(25%); 
+    } 
+}
+   
+
+
+</style>
+<body bgcolor="black" >
+    <table style="background-color: rgb(253, 253, 255); width: 100%;">
+        <tr > 
+            
+            <th style="background-color:rgb(167, 237, 237); width: 80%; text-align: center; word-spacing: normal;"> <h1 >My porject portfolio<h1></th>
+        </tr>
+    </table>
+    <hr>
+<h3>1.<a href="movie-ranking.html">Movie ranking Project</a><h3>
+<h3>2.<a href="birthday-invite.html">birthday-invite</a></h3>
+<hr>
+<div class="main__bg"></div> 
+<div class="main__bg layer1"></div> 
+<div class="main__bg layer2"></div> 
+
+
+
+
+
+</body>
+</html>   
